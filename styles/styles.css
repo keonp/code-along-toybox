@@ -322,10 +322,6 @@ img {
   width: 90%;
 }
 
-section {
-  margin-bottom: 90px;
-}
-
 .button {
   padding: 18px 36px;
   border: 2px solid #084b6d;
@@ -559,4 +555,47 @@ header .wrapper {
   background-color: #fff;
   padding: 60px;
   text-align: center;
+}
+
+footer {
+  background-color: #084b6d;
+  color: #fff;
+  padding: 75px;
+}
+footer .footerFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerLogo h4 {
+  color: #fff;
+}
+
+.footerNav {
+  width: 40%;
+}
+.footerNav nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+}
+.social i {
+  margin: 0 10px;
 }
