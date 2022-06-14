@@ -1,6 +1,8 @@
 @import './partials/setup';
 @import './partials/variables';
 @import './partials/typography';
+@import './partials/baseStyles';
+@import './partials/nav';
 
 // COLOURS:
 // primary text (blue): #084b6d;
@@ -19,8 +21,3 @@
 // h3: 54px;
 // h4: 34px;
 // h5: 14px;
-
-
-header {
-    width: 100%;
-}
