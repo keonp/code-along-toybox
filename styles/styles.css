@@ -709,7 +709,7 @@ header .wrapper .textContainer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 90px 0;
+  margin: 90px auto;
   max-width: 1000px;
 }
 
